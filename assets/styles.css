@@ -56,16 +56,16 @@ body {
 
 .navbar,
 .nav-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-list {
-    gap: 30px;
-    
+  gap: 30px;
+
 }
 
 .nav-list a {
-    color: var(--text-white);
+  color: var(--text-white);
 }
