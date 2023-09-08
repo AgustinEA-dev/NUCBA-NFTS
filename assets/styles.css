@@ -51,7 +51,14 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: var(--secondary);
-  padding: 15px;
+  padding: 0 25px;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+}
+
+.logo {
+  height: 40%;
 }
 
 .navbar,
@@ -61,11 +68,57 @@ body {
   justify-content: center;
 }
 
+.navbar {
+  gap: 10rem;
+}
+
 .nav-list {
   gap: 30px;
 
 }
 
+
 .nav-list a {
+  color: var(--text-gray);
+  font-size: var(--font-sm);
+}
+
+.active a {
   color: var(--text-white);
+  font-weight: var(--font-semibold);
+}
+
+.cart-icon {
+  height: 20px;
+  cursor: pointer;
+}
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Hero */
+
+#hero {
+  margin-top: 65px;
+  padding: 70px 0;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-white);
+}
+
+.hero-info {
+  background-color: #464d50;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
 }
