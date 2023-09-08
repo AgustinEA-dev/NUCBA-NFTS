@@ -46,3 +46,11 @@
 body {
   background-color: var(--background);
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
